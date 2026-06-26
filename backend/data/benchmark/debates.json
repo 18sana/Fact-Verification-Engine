@@ -1,0 +1,549 @@
+{
+  "debates": [
+    {
+      "claim": "India won the Cricket World Cup in 2011 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "weak_evidence"
+      ]
+    },
+    {
+      "claim": "India won the Cricket World Cup in 2007 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "temporal_inconsistency",
+        "historical_contradiction"
+      ]
+    },
+    {
+      "claim": "Australia won the Cricket World Cup in 2011.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final."
+      ],
+      "expected_challenges": [
+        "historical_contradiction"
+      ]
+    },
+    {
+      "claim": "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century.",
+      "evidence": [
+        "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century."
+      ],
+      "expected_challenges": []
+    },
+    {
+      "claim": "COVID-19 was declared a global pandemic by WHO on March 11, 2020.",
+      "evidence": [
+        "COVID-19 was declared a global pandemic by WHO on March 11, 2020."
+      ],
+      "expected_challenges": []
+    },
+    {
+      "claim": "India almost won the Cricket World Cup in 2011.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final."
+      ],
+      "expected_challenges": [
+        "misleading_wording"
+      ]
+    },
+    {
+      "claim": "MS Dhoni scored a century in the 2011 World Cup final.",
+      "evidence": [
+        "Dhoni finished the final with an unbeaten 91, hitting the winning six."
+      ],
+      "expected_challenges": [
+        "historical_contradiction"
+      ]
+    },
+    {
+      "claim": "The 2011 World Cup was hosted solely by India.",
+      "evidence": [
+        "The tournament was co-hosted by India, Sri Lanka, and Bangladesh."
+      ],
+      "expected_challenges": [
+        "missing_context"
+      ]
+    },
+    {
+      "claim": "India won their first World Cup title in 2011.",
+      "evidence": [
+        "India claimed their second World Cup title in 2011, 28 years after their first in 1983."
+      ],
+      "expected_challenges": [
+        "historical_contradiction"
+      ]
+    },
+    {
+      "claim": "Sri Lanka won the 2011 Cricket World Cup final.",
+      "evidence": [
+        "India beat Sri Lanka by 6 wickets in the 2011 Cricket World Cup final."
+      ],
+      "expected_challenges": [
+        "historical_contradiction"
+      ]
+    },
+    {
+      "claim": "India won the 2011 World Cup final by 100 runs.",
+      "evidence": [
+        "India beat Sri Lanka by 6 wickets in the 2011 Cricket World Cup final."
+      ],
+      "expected_challenges": [
+        "historical_contradiction"
+      ]
+    },
+    {
+      "claim": "Virat Kohli captained India in the 2011 World Cup.",
+      "evidence": [
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "The 2011 World Cup final was played in Delhi.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final at Wankhede Stadium, Mumbai."
+      ],
+      "expected_challenges": [
+        "historical_contradiction"
+      ]
+    },
+    {
+      "claim": "Global temperatures have decreased since the 19th century.",
+      "evidence": [
+        "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century."
+      ],
+      "expected_challenges": [
+        "historical_contradiction"
+      ]
+    },
+    {
+      "claim": "WHO declared COVID-19 a pandemic in January 2020.",
+      "evidence": [
+        "COVID-19 was declared a global pandemic by WHO on March 11, 2020."
+      ],
+      "expected_challenges": [
+        "temporal_inconsistency"
+      ]
+    },
+    {
+      "claim": "Vaccination programs for COVID-19 began in 2019.",
+      "evidence": [
+        "Vaccination programs began globally in late 2020 and early 2021."
+      ],
+      "expected_challenges": [
+        "temporal_inconsistency"
+      ]
+    },
+    {
+      "claim": "Arctic sea ice has been increasing over the past four decades.",
+      "evidence": [
+        "Arctic sea ice extent has declined significantly over the past four decades."
+      ],
+      "expected_challenges": [
+        "historical_contradiction"
+      ]
+    },
+    {
+      "claim": "India won the World Cup in 2011 and lost the final.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final."
+      ],
+      "expected_challenges": [
+        "logical_inconsistency"
+      ]
+    },
+    {
+      "claim": "The 2011 World Cup had no captain for the Indian team.",
+      "evidence": [
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "missing_context"
+      ]
+    },
+    {
+      "claim": "India scored 400 runs in the 2011 World Cup final.",
+      "evidence": [
+        "India scored 277/4 in the final, chasing Sri Lanka's 274/6."
+      ],
+      "expected_challenges": [
+        "historical_contradiction"
+      ]
+    },
+    {
+      "claim": "India won the Cricket World Cup in 2007 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Pakistan won the Cricket World Cup in 2007 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Australia won the Cricket World Cup in 2011.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century.",
+      "evidence": [
+        "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "COVID-19 was declared a global pandemic by WHO on March 11, 2020.",
+      "evidence": [
+        "COVID-19 was declared a global pandemic by WHO on March 11, 2020."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Pakistan won the Cricket World Cup in 2011 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "India won the Cricket World Cup in 2007 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Australia won the Cricket World Cup in 2011.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century.",
+      "evidence": [
+        "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "COVID-19 was declared a global pandemic by WHO on March 11, 2020.",
+      "evidence": [
+        "COVID-19 was declared a global pandemic by WHO on March 11, 2020."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Pakistan won the Cricket World Cup in 2011 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Pakistan won the Cricket World Cup in 2007 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Australia won the Cricket World Cup in 2007.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century.",
+      "evidence": [
+        "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "COVID-19 was declared a global pandemic by WHO on March 11, 2020.",
+      "evidence": [
+        "COVID-19 was declared a global pandemic by WHO on March 11, 2020."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "India won the Cricket World Cup in 2007 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Pakistan won the Cricket World Cup in 2007 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Australia won the Cricket World Cup in 2011.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century.",
+      "evidence": [
+        "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "COVID-19 was declared a global pandemic by WHO on March 11, 2020.",
+      "evidence": [
+        "COVID-19 was declared a global pandemic by WHO on March 11, 2020."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Pakistan won the Cricket World Cup in 2011 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "India won the Cricket World Cup in 2007 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Australia won the Cricket World Cup in 2011.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century.",
+      "evidence": [
+        "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "COVID-19 was declared a global pandemic by WHO on March 11, 2020.",
+      "evidence": [
+        "COVID-19 was declared a global pandemic by WHO on March 11, 2020."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Pakistan won the Cricket World Cup in 2011 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Pakistan won the Cricket World Cup in 2007 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Australia won the Cricket World Cup in 2007.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century.",
+      "evidence": [
+        "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "COVID-19 was declared a global pandemic by WHO on March 11, 2020.",
+      "evidence": [
+        "COVID-19 was declared a global pandemic by WHO on March 11, 2020."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "India won the Cricket World Cup in 2007 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Pakistan won the Cricket World Cup in 2007 under MS Dhoni.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final.",
+        "MS Dhoni captained the Indian cricket team during the 2011 World Cup campaign."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "Australia won the Cricket World Cup in 2011.",
+      "evidence": [
+        "India won the 2011 Cricket World Cup by defeating Sri Lanka in the final."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century.",
+      "evidence": [
+        "The global average temperature has risen by approximately 1.1 degrees Celsius since the late 19th century."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    },
+    {
+      "claim": "COVID-19 was declared a global pandemic by WHO on March 11, 2020.",
+      "evidence": [
+        "COVID-19 was declared a global pandemic by WHO on March 11, 2020."
+      ],
+      "expected_challenges": [
+        "historical_contradiction",
+        "entity_swap"
+      ]
+    }
+  ],
+  "total": 55,
+  "held_out": true
+}
