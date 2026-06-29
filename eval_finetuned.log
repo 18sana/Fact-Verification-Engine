@@ -1,0 +1,65 @@
+[2m2026-06-29T06:37:45.139952Z[0m [[32m[1minfo     [0m] [1mloading_local_skeptic         [0m [36mbase[0m=[35msshleifer/tiny-gpt2[0m [36mpath[0m=[35mdata/models/skeptic-lora[0m
+[2m2026-06-29T06:37:54.195494Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m10458.912714000235[0m
+[2m2026-06-29T06:37:54.195738Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+[2m2026-06-29T06:37:56.623344Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m1867.545833999884[0m
+[2m2026-06-29T06:37:56.623435Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+[2m2026-06-29T06:37:58.580101Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m1956.3201259998095[0m
+[2m2026-06-29T06:37:58.580188Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+[2m2026-06-29T06:38:00.523752Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m1943.2496260001244[0m
+[2m2026-06-29T06:38:00.523838Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExtra data: line 1 column 5 (char 4)[0m
+[2m2026-06-29T06:38:02.865213Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m2341.0653350001667[0m
+[2m2026-06-29T06:38:02.865314Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2m2026-06-29T06:38:06.015240Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:08.274502Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m2258.971542999916[0m
+[2m2026-06-29T06:38:08.274718Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2m2026-06-29T06:38:08.279467Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:08.279752Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:10.786548Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m2506.4376670002275[0m
+[2m2026-06-29T06:38:10.786690Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+[2m2026-06-29T06:38:12.763063Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m1975.9073340001123[0m
+[2m2026-06-29T06:38:12.763139Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2m2026-06-29T06:38:12.767378Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:12.767521Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:14.688913Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m1921.229417000177[0m
+[2m2026-06-29T06:38:14.688994Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+[2m2026-06-29T06:38:16.459425Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m1770.1583340003708[0m
+[2m2026-06-29T06:38:16.459513Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2m2026-06-29T06:38:16.462770Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:16.462926Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:18.325414Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m1862.2672510000484[0m
+[2m2026-06-29T06:38:18.325516Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+[2m2026-06-29T06:38:20.105137Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m1779.3074590003926[0m
+[2m2026-06-29T06:38:20.105218Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2m2026-06-29T06:38:20.108892Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:20.109018Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:22.031366Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m1922.233876000064[0m
+[2m2026-06-29T06:38:22.031450Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+[2m2026-06-29T06:38:23.944614Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m1912.8662509997412[0m
+[2m2026-06-29T06:38:23.944697Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2m2026-06-29T06:38:23.947934Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:23.948061Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:26.105306Z[0m [[32m[1minfo     [0m] [1mskeptic_using_finetuned       [0m [36mlatency_ms[0m=[35m2157.0956679997835[0m
+[2m2026-06-29T06:38:26.105405Z[0m [[33m[1mwarning  [0m] [1mfinetuned_skeptic_failed_fallback[0m [36merror[0m=[35mExpecting value: line 1 column 1 (char 0)[0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2m2026-06-29T06:38:26.107480Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2m2026-06-29T06:38:27.680803Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2m2026-06-29T06:38:28.479235Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2m2026-06-29T06:38:29.574467Z[0m [[32m[1minfo     [0m] [1mskeptic_using_api             [0m [36mmodel[0m=[35mclaude-haiku-4-5[0m
+[2m2026-06-29T06:38:29.825133Z[0m [[33m[1mwarning  [0m] [1mhigh_miss_rate_data_quality   [0m [36mmiss_rate[0m=[35m0.3333333333333333[0m
+FINETUNED_DONE finetuned_skeptic 0.8 0.3333333333333333 15
+generated new fontManager
+CHART data/evaluation/charts/skeptic_comparison.png
